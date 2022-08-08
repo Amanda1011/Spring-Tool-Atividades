@@ -37,7 +37,7 @@ public class ProdutoModel {
 	private LocalDateTime data;
 
 	@ManyToOne
-	@JsonIgnoreProperties("produto")
+	@JsonIgnoreProperties("produtos")
 	private CategoriaModel categoria;
 
 	public Long getId() {
